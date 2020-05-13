@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<h1>Inicia sesion</h1>
+	<button id="loginGoogle">
+		Inicia con Google
+	</button>
+	<button id="loginFacebook">
+		Inicia con Facebook
+	</button>
+	<script
+	  src="https://code.jquery.com/jquery-3.5.1.js"
+	  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+	  crossorigin="anonymous"></script>
+	  <!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
+
+	  <!-- Firebase App (the core Firebase SDK) is always required and must be listed first -->
+	  <script src="https://www.gstatic.com/firebasejs/6.2.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.2.4/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.2.4/firebase-auth.js"></script>
+    <script src="https://cdn.firebase.com/libs/firebaseui/4.0.0/firebaseui.js"></script>
+	
+	
+
+	<!-- The core Firebase JS SDK is always required and must be listed first -->
+	<!--script src="https://www.gstatic.com/firebasejs/7.14.3/firebase-app.js"></script-->
+
+	<!-- TODO: Add SDKs for Firebase products that you want to use
+	     https://firebase.google.com/docs/web/setup#available-libraries -->
+	
+	<script>
+	  // Your web app's Firebase configuration
+	  var firebaseConfig = {
+	    apiKey: "AIzaSyDX24Qg_zdIOAgyuVZ6fXKqlqDIWnMgU1g",
+	    authDomain: "taller4jquery.firebaseapp.com",
+	    databaseURL: "https://taller4jquery.firebaseio.com",
+	    projectId: "taller4jquery",
+	    storageBucket: "taller4jquery.appspot.com",
+	    messagingSenderId: "967700594375",
+	    appId: "1:967700594375:web:84ac78aca8e3eca542c8e2"
+	  };
+	  // Initialize Firebase
+	  firebase.initializeApp(firebaseConfig);
+	</script>
+	<div id="root">
+
+		<img id="avatar" src="" alt="">
+
+	</div>
+		<!-- The core Firebase JS SDK is always required and must be listed first -->
+	<!--script src="/__/firebase/7.14.3/firebase-app.js"></script-->
+
+	<!-- TODO: Add SDKs for Firebase products that you want to use
+	     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+	<!-- Initialize Firebase -->
+	<!--script src="/__/firebase/init.js"></script-->
+	<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
